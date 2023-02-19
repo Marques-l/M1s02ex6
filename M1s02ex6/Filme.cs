@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace M1s02ex6
 {
-    internal class Filme
+    public class Filme
     {
+        public string NomeFilme { get; set; }
+        public string Cartegoria { get; set; }
+        public string  Info()
+        {
+              return NomeFilme+ " " + Cartegoria;
+        }
     }
 }
