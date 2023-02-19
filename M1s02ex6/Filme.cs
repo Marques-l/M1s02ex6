@@ -10,9 +10,6 @@ namespace M1s02ex6
     {
         public string NomeFilme { get; set; }
         public string Cartegoria { get; set; }
-        public string  Info()
-        {
-              return NomeFilme+ " " + Cartegoria;
-        }
+       
     }
 }
